@@ -15,5 +15,4 @@ def greet(who_to_greet):
 
 r = requests.get("https://coreyms.com", timeout=2)
 print(r.status_code)
-# print(greet("World"))
-# print(greet("Corey"))
+print(r.ok)
